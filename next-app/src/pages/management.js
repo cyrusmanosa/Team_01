@@ -1,4 +1,6 @@
 import styles from "../styles/management.module.css"
+
+
 const management = () => {
     return (
         <div className={styles.container}>

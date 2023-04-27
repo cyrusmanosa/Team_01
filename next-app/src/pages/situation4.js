@@ -9,10 +9,10 @@ const situation4 = () => {
 
             <form action="" method="post">
                 <div>
-                    <input className={style.safe} type="button" value="軽症" onClick={movePage("situation3")}></input>
+                    <input className={styles.safe} type="button" value="軽症" onClick={movePage("situation3")}></input>
                 </div>
                 <div>
-                    <input className={style.dangerous} type="button" value="重症" onClick={movePage("situation3")}></input>
+                    <input className={styles.dangerous} type="button" value="重症" onClick={movePage("situation3")}></input>
                 </div>
             </form>
 
