@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 78ebbf71fb7f3bfa67690588dc35dd6d8e07ac35
 import style from "../styles/situation.module.css";
 import movePage from './_route.js';
 const situation1 = () => (
