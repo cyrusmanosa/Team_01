@@ -1,8 +1,5 @@
 import style from "../styles/situation.module.css";
 import movePage from './_route.js';
-// const movePage = (url) => () => {
-//     Router.push(url);
-// }
 const situation1 = () => (
     <div className={style.container}>
         <div>

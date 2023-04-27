@@ -1,10 +1,10 @@
-import style from "../styles/situation.module.css";
+import styles from "../styles/situation.module.css";
 const situation4 = () => {
     return (
-        <div className={style.container}>
+        <div className={styles.container}>
             <div>
-                <h1 className={style.title}>安否登録</h1>
-                <p className={style.text}>けがの度合は？</p>
+                <h1 className={styles.title}>安否登録</h1>
+                <p className={styles.text}>けがの度合は？</p>
             </div>
 
             <form action="" method="post">
@@ -16,12 +16,12 @@ const situation4 = () => {
                 </div>
             </form>
 
-            <div className={style.img}>
+            <div className={styles.img}>
                 <a href="../pages/situation3"><img src="../img/Left.png" width="100px"></img></a>
                 <h3>システムの状況</h3>
                 <a href="../pages/page.js"><img src="../img/Right.png" width="100px"></img></a>
             </div>
-            <hr class="hr"></hr>
+            <hr className={styles.hr}></hr>
         </div>
     );
 }
