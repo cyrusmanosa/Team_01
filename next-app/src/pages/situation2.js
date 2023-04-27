@@ -1,4 +1,5 @@
-import style from "../styles/situation2.module.css"
+import style from "../styles/situation2.module.css";
+import movePage from "./_route";
 const situation3 = () => {
     return (
         <div className={style.container}>
@@ -8,12 +9,12 @@ const situation3 = () => {
             </div>
 
             <form action="" method="post">
-                    <div>
-                        <input className={style.safe} type="button" value="無事です" onClick="../pages/situation3.js"></input>
-                    </div>
-                    <div>
-                        <input className={style.dangerous} type="button" value="危険です" onClick="../pages/situation3.js"></input>
-                    </div>
+                <div>
+                    <input className={style.safe} type="button" value="無事です" onClick={movePage("situation3")}></input>
+                </div>
+                <div>
+                    <input className={style.dangerous} type="button" value="危険です" onClick={movePage("situation3")}></input>
+                </div>
             </form>
 
             <div className={style.img}>
