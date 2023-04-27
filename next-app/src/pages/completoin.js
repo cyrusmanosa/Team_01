@@ -1,8 +1,8 @@
 import styles from "../styles/completion.module.css"
 
-export default function page() {
-  return (
-    <div className={styles.container}>
+const completoin = () => {
+    return (
+        <div className={styles.container}>
         <div>
             <h1 className={styles.title}>登録完了</h1>
             <p className={styles.text}>安全な場所に避難して周囲の安全を確保してください。</p>
@@ -22,5 +22,7 @@ export default function page() {
         </div>
         <hr className={styles.hr}></hr>
     </div>
-  );
+    );
 }
+
+export default completoin;
