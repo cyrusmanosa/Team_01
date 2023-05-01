@@ -19,11 +19,11 @@ const situation2 = () => {
 
             <div className={style.img}>
                 <div>
-                    <a href="../pages/situation1.js"><img src="../img/Left.png" width="100px"></img></a>
+                    <a href="./situation1.js"><img src="../img/Left.png" width="100px"></img></a>
                 </div>
                 <h3>システムの状況</h3>
                 <div>
-                    <a href="../pages/situation3.js"><img src="../img/Right.png" width="100px"></img></a>
+                    <a href="./situation3.js"><img src="../img/Right.png" width="100px"></img></a>
                 </div>
             </div>
             <hr className={style.hr}></hr>
