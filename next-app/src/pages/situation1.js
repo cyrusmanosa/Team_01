@@ -23,7 +23,7 @@ const situation1 = () => {
                 </div>
                 <h3>システムの状況</h3>
                 <div>
-                    <a href="./situation2.js"><img src="./img/Right.png" width="100px"></img></a>
+                    <a href="./situation2"><img src="./img/Right.png" width="100px"></img></a>
                 </div>
             </div>
             <hr className={style.hr}></hr>
