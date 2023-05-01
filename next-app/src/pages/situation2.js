@@ -1,7 +1,7 @@
 import style from "../styles/situation.module.css";
 import movePage from "./_route.js";
 const situation2 = () => {
-    return (
+    return(
         <div className={style.container}>
             <div>
                 <h1 className={style.title}>安否登録</h1>
@@ -31,4 +31,4 @@ const situation2 = () => {
     );
 }
 
-export default situation3;
+export default situation2;
