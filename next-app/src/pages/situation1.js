@@ -10,20 +10,38 @@ const situation1 = () => {
 
             <form action="" method="post">
                 <div>
-                    <input className={style.safe} type="button" value="無事です" onClick={movePage("situation3")}></input>
+                    <input 
+                        className={style.safe} 
+                        type="button" 
+                        value="無事です" 
+                        onClick={movePage("situation3")}>
+                    </input>
                 </div>
                 <div>
-                    <input className={style.dangerous} type="button" value="被害あり" onClick={movePage("situation3")}></input>
+                    <input 
+                        className={style.dangerous} 
+                        type="button" 
+                        value="被害あり" 
+                        onClick={movePage("situation3")}>
+                    </input>
                 </div>
             </form>
 
             <div className={style.img}>
                 <div>
-                    <a href="./index.js"><img src="./img/Left.png" width="100px"></img></a>
+                    <a href="..">
+                        <img src="./img/Left.png" 
+                            width="100px">
+                        </img>
+                    </a>
                 </div>
                 <h3>システムの状況</h3>
                 <div>
-                    <a href="./situation2"><img src="./img/Right.png" width="100px"></img></a>
+                    <a href="./situation2">
+                        <img src="./img/Right.png" 
+                            width="100px">
+                        </img>
+                    </a>
                 </div>
             </div>
             <hr className={style.hr}></hr>
