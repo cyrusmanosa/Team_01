@@ -17,9 +17,13 @@ const situation1 = () => (
         </form>
 
         <div className={style.img}>
-            <a href="../pages/page.js"><img src="../img/Left.png" width="100px"></img></a>
+            <div>
+                <a href="../pages/index.js"><img src="../pages/img/Left.png" width="100px"></img></a>
+            </div>
             <h3>システムの状況</h3>
-            <a href="../pages/situation2.js"><img src="../img/Right.png" width="100px"></img></a>
+            <div>
+                <a href="../pages/situation2.js"><img src="../pages/img/Right.png" width="100px"></img></a>
+            </div>
         </div>
         <hr className={style.hr}></hr>
     </div>

@@ -1,5 +1,5 @@
-import style from "../styles/situation2.module.css";
-import movePage from "./_route";
+import style from "../styles/situation.module.css";
+import movePage from "./_route.js";
 const situation3 = () => {
     return (
         <div className={style.container}>
@@ -18,11 +18,11 @@ const situation3 = () => {
             </form>
 
             <div className={style.img}>
-                <a href="../pages/page.js"><img src="../img/Left.png" width="100px"></img></a>
+                <a href="../pages/situation1.js"><img src="../img/Left.png" width="100px"></img></a>
                 <h3>システムの状況</h3>
-                <a href="../pages/page.js"><img src="../img/Right.png" width="100px"></img></a>
+                <a href="../pages/situation3.js"><img src="../img/Right.png" width="100px"></img></a>
             </div>
-            <hr class="hr"></hr>
+            <hr className={style.hr}></hr>
         </div>
     );
 }
