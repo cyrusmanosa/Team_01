@@ -1,10 +1,11 @@
 import style from "../styles/situation.module.css";
 import movePage from './_route.js';
-const situation1 = () => (
-    <div className={style.container}>
-        <div>
-            <h1 className={style.title}>安否登録</h1>
-            <p className={style.text}>あなたの安否状況を教えてください。</p>
+const situation1 = () => {
+    return(
+        <div className={style.container}>
+            <div>
+                <h1 className={style.title}>安否登録</h1>
+                <p className={style.text}>あなたの安否状況を教えてください。</p>
         </div>
 
         <form action="" method="post">
@@ -27,6 +28,6 @@ const situation1 = () => (
         </div>
         <hr className={style.hr}></hr>
     </div>
-)
-
+    );
+}
 export default situation1;
