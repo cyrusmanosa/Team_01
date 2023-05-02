@@ -7,7 +7,6 @@ const situation1 = () => {
         <h1 className={style.title}>安否登録</h1>
         <p className={style.text}>あなたの安否状況を教えてください。</p>
       </div>
-
       <form action="" method="post">
         <div>
           <input
@@ -26,6 +25,21 @@ const situation1 = () => {
           ></input>
         </div>
       </form>
+
+      <div className={style.img}>
+        <div>
+          <a href="..">
+            <img src="./img/Left.png" width="100px"></img>
+          </a>
+        </div>
+        <h3>システムの状況</h3>
+        <div>
+          <a href="./situation2">
+            <img src="./img/Right.png" width="100px"></img>
+          </a>
+        </div>
+      </div>
+      <hr className={style.hr}></hr>
 
       <div className={style.img}>
         <div>
