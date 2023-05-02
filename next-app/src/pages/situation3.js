@@ -5,7 +5,7 @@ const situation3 = () => {
     <div className={style.container}>
       <div>
         <h1 className={style.title}>安否登録</h1>
-        <p>周囲は安全ですか？</p>
+        <p className={style.text}>周囲は安全ですか？</p>
       </div>
 
       <form action="" method="post">

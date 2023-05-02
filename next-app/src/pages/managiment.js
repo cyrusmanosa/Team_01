@@ -1,27 +1,37 @@
-import styles from "../styles/management.module.css"
-
+import style from "../styles/management.module.css"
 
 const management = () => {
     return (
-        <div className={styles.container}>
+        <div className={style.container}>
             <div>
-                <h1 className={styles.title}>管理</h1>
+                <h1 className={style.title}>管理</h1>
             </div>
 
             <form action="" method="post">
                 <div>
-                    <input className={styles.delete} type="button" value="削除" onClick="../pages"></input>
+                    <input 
+                        className={style.delete} 
+                        type="button" 
+                        value="削除" 
+                        onClick="./del">
+                    </input>
                 </div>
                 <div>
-                    <input className={styles.addition} type="button" value="追加" onClick="../pages"></input>
+                    <input 
+                        className={style.addition} 
+                        type="button" 
+                        value="追加" 
+                        onClick="./add">
+                    </input>
                 </div>
             </form>
 
-            <div className={styles.img}>
-                <a href="../pages/completion.js"><img src="../img/Left.png"></img></a>
-                <a href="../pages"><img src="../img/Right.png"></img></a>
+            <div className={style.img}>
+                <a href="./completion">
+                    <img src="./img/Cen2.png"></img>
+                </a>
             </div>
-            <hr className={styles.hr}></hr>
+            <hr className={style.hr}></hr>
         </div>
     );
 }
