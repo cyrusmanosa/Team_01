@@ -34,7 +34,7 @@ export default function homepage() {
         </div>
       </div>
       <a href="./situation1">
-        <button align="center" type="submit" className={styles.LoginSub}>
+        <button type="submit" className={styles.LoginSub}>
           登録
         </button>
       </a>
