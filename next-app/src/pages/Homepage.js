@@ -1,4 +1,5 @@
 import styles from "../styles/homepage.module.css";
+import movePage from "./_route.js";
 
 export default function homepage() {
   return (
@@ -21,7 +22,7 @@ export default function homepage() {
         </div>
 
         <div>
-          <label htmlFor="password">暗証番号：</label>
+          <label htmlFor="password">暗証番号 ：</label>
           <input
             className={styles.inputText}
             type="password"

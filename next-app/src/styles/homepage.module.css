@@ -30,6 +30,8 @@
   border-radius: 4px;
   cursor: pointer;
   margin: 90px 0px 0px 900px;
+  display: block;
+  margin: 0 auto;
 }
 .LoginSub:hover,
 .LoginSub:active {
