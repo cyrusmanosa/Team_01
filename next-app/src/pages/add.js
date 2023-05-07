@@ -23,7 +23,7 @@ export default function add() {
           <label htmlFor="department">部　門　 ：</label>
           <input
             className={style.inputText}
-            type="password"
+            type="text"
             name="department"
             id="department"
             required

@@ -11,8 +11,8 @@
   font-size: 36px;
   border: none;
   width: 500px;
-  height: 150px;
-  margin: 100px 0 60px 0;
+  height: 100px;
+  margin: 50px 0 0 0;
 
   background-color: #d9d9d9;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 25);
@@ -22,8 +22,8 @@
   font-size: 36px;
   border: none;
   width: 500px;
-  height: 150px;
-  margin: 60px 0 90px 0;
+  height: 100px;
+  margin: 60px 0 0 0;
 
   background-color: #d9d9d9;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 25);
@@ -31,6 +31,11 @@
 }
 .img {
   margin-top: 100px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
 }
 .hr {
   border: none;

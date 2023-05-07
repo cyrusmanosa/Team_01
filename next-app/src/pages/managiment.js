@@ -28,9 +28,17 @@ const management = () => {
       </form>
 
       <div className={style.img}>
-        <a href="./completion">
-          <img src="./img/Cen2.png"></img>
-        </a>
+        <div>
+          <a href="./situation1">
+            <img src="../img/Left.png" width="100px"></img>
+          </a>
+        </div>
+        <h3>システムの状況</h3>
+        <div>
+          <a href="./situation3">
+            <img src="../img/Right.png" width="100px"></img>
+          </a>
+        </div>
       </div>
       <hr className={style.hr}></hr>
     </div>
