@@ -4,6 +4,7 @@ import movePage from "./_route.js";
 export default function homepage() {
   return (
     <>
+      <hr className={styles.hr}></hr>
       <h1 className={styles.companyName}>
         （会社の名前）
         <br />
@@ -39,6 +40,7 @@ export default function homepage() {
           登録
         </button>
       </a>
+      <hr className={styles.hr}></hr>
     </>
   );
 }

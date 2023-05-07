@@ -33,6 +33,11 @@
   display: block;
   margin: 0 auto;
 }
+.hr {
+  border: none;
+  height: 180px;
+  background: #86c7f5;
+}
 .LoginSub:hover,
 .LoginSub:active {
   background: #d65b72;
