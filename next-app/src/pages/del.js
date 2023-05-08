@@ -10,7 +10,7 @@ export default function del() {
 
       <div className={style.inputform}>
         <div>
-          <label htmlFor="staffName">社員のID：</label>
+          <label htmlFor="staffName">社員の ID ：</label>
           <input
             className={style.inputText}
             type="text"
