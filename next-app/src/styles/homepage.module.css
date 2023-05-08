@@ -1,6 +1,5 @@
 .companyName {
-  padding-top: 100px;
-  padding-bottom: 20px;
+  padding: 10px;
   text-align: center;
 }
 
@@ -10,6 +9,10 @@
   justify-content: center;
   align-items: center;
   padding: 14px 0;
+}
+
+.inputform input{
+  margin: 5px;
 }
 
 .inputText {
@@ -29,9 +32,9 @@
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  margin: 90px 0px 0px 900px;
   display: block;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 .hr {
   border: none;

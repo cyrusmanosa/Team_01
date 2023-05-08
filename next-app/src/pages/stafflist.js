@@ -3,6 +3,7 @@ import style from "../styles/situation.module.css";
 export default function delComplete() {
   return (
     <>
+      <hr className={style.hr}></hr>
       <p className="title">社員状況一覧</p>
       <table className={style.StaffList}>
         <tr>
@@ -34,6 +35,7 @@ export default function delComplete() {
       <div className={style.footerPart}>
         <h3 className="footerWord">システムの状況:X</h3>
       </div>
+      <hr className={style.hr}></hr>  
     </>
   );
 }

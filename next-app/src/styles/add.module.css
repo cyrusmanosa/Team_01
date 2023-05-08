@@ -11,7 +11,7 @@
 
 .text {
   font-size: 26px;
-  padding: 30px 0 70px 0;
+  padding: 30px 0 50px 0;
 }
 
 .inputform {
@@ -57,4 +57,8 @@
   border: none;
   height: 180px;
   background: #86c7f5;
+}
+
+.Cen{
+  margin-top: 50px;
 }
