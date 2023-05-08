@@ -28,7 +28,7 @@ const situation5 = () => {
       </form>
 
       <div className={style.img}>
-        <a href="./situation3">
+        <a href="./situation4">
           <img src="../img/Left.png" width="100px"></img>
         </a>
         <h3>システムの状況</h3>
