@@ -69,17 +69,19 @@ const situation = () => {
       </form >
 
       <div className={style.img}>
-        <div>
-          <a href="#" onClick={() => {
-            for (let i = state - 1; i >= 0; i--) {
-              if (data[i] !== undefined) {
-                setState(i)
-                break
+        <div className={style.moveButton}>
+          {state > 0 &&
+            <a href="#" onClick={() => {
+              for (let i = state - 1; i >= 0; i--) {
+                if (data[i] !== undefined) {
+                  setState(i)
+                  break
+                }
               }
-            }
-          }}>
-            <img src="./img/Left.png" width="100px"></img>
-          </a>
+            }}>
+              <img src="./img/Left.png" width="100px"></img>
+            </a>
+          }
         </div>
         <h3>システムの状況</h3>
         <div className={style.moveButton}>
