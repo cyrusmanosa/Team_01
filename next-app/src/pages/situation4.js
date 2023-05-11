@@ -14,7 +14,7 @@ const situation4 = () => {
             className={style.safe}
             type="button"
             value="軽症です"
-            onClick={movePage("completoin")}
+            onClick={movePage("situation5")}
           ></input>
         </div>
         <div>
@@ -22,7 +22,7 @@ const situation4 = () => {
             className={style.dangerous}
             type="button"
             value="重症です"
-            onClick={movePage("completoin")}
+            onClick={movePage("situation5")}
           ></input>
         </div>
       </form>
