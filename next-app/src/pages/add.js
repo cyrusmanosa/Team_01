@@ -1,11 +1,11 @@
-import style from "../styles/add.module.css";
+import style from "../styles/addAnddel.module.css";
 import movePage from "./_route.js";
 
 export default function add() {
   return (
     <div className={style.container}>
-      <hr className={style.hr}></hr>
-      <p className={style.title}>追加</p>
+      <div className={style.hr}></div>
+      <h1 className={style.title}>追加</h1>
       <p className={style.text}>新社員の情報を教えてください。</p>
 
       <div className={style.inputform}>
@@ -21,7 +21,7 @@ export default function add() {
         </div>
 
         <div>
-          <label htmlFor="department">部 門：</label>
+          <label htmlFor="department">社員の部門：</label>
           <input
             className={style.inputText}
             type="text"

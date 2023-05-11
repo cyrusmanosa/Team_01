@@ -1,11 +1,11 @@
-import style from "../styles/add.module.css";
+import style from "../styles/stafflist.module.css";
 import movePage from "./_route.js";
 
 export default function stafflist() {
   return (
     <div className={style.container}>
-      <hr className={style.hr}></hr>
-      <p className={style.title}>社員状況一覧</p>
+      <div className={style.hr}></div>
+      <h1 className={style.title}>社員状況一覧</h1>
 
       <table className={style.StaffList}>
           <tbody>
