@@ -4,7 +4,7 @@ import movePage from "./_route.js";
 const management = () => {
   return (
     <div className={style.container}>
-      <hr className={style.hr}></hr>
+      <div className={style.hr}></div>
       <div>
         <h1 className={style.title}>管理</h1>
       </div>

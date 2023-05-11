@@ -75,6 +75,7 @@
 
 * {
   box-sizing: border-box;
+  
 }
 
 input{
@@ -83,9 +84,12 @@ input{
 
 html,
 body {
+  padding: 0;
+  margin: 0;
   max-width: 100vw;
   overflow-x: hidden;
 }
+
 
 a {
   color: inherit;

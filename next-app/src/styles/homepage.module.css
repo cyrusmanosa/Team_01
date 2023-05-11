@@ -8,11 +8,15 @@
   grid-template-columns: auto;
   justify-content: center;
   align-items: center;
-  padding: 14px 0;
+  padding-bottom: 14px;
+}
+
+.inputform label{
+  font-size: 20px;
 }
 
 .inputText {
-  padding: 12px 18px;
+  padding: 14px 50px;
   border: 1px solid #ccc;
   border-radius: 50px;
   box-sizing: border-box;
@@ -32,13 +36,15 @@
   margin: 0 auto;
   margin-bottom: 20px;
 }
-.hr {
-  border: none;
-  height: 100px;
-  background: #86c7f5;
-}
+
 .LoginSub:hover,
 .LoginSub:active {
   background: #d65b72;
   text-align: center;
+}
+
+.hr {
+  height: 170px;
+  background: #86c7f5;
+  background-repeat: repeat;
 }
