@@ -4,6 +4,7 @@ import movePage from "./_route.js";
 const management = () => {
   return (
     <div className={style.container}>
+      <hr className={style.hr}></hr>
       <div>
         <h1 className={style.title}>管理</h1>
       </div>
@@ -14,7 +15,7 @@ const management = () => {
             className={style.delete}
             type="button"
             value="削除"
-            onClick={movePage("delete")}
+            onClick={movePage("del")}
           ></input>
         </div>
         <div>
@@ -27,20 +28,16 @@ const management = () => {
         </div>
       </form>
 
-      <div className={style.img}>
-        <div>
-          <a href="./situation1">
-            <img src="../img/Left.png" width="100px"></img>
-          </a>
-        </div>
-        <h3>システムの状況</h3>
-        <div>
-          <a href="./situation3">
-            <img src="../img/Right.png" width="100px"></img>
-          </a>
-        </div>
-      </div>
-      <hr className={style.hr}></hr>
+      <div className={style.Cen}>
+            <a href="./completoin">
+              <img src="./img/Cen2.png" width={100} />
+            </a>
+          </div>
+
+          <div className={style.footerPart}>
+            <h3 className="footerWord">システムの状況:X</h3>
+          </div>
+          <hr className={style.hr}></hr>
     </div>
   );
 };

@@ -1,20 +1,20 @@
-import styles from "../styles/homepage.module.css";
+import style from "../styles/homepage.module.css";
 import movePage from "./_route.js";
 
 export default function homepage() {
   return (
     <>
-      <hr className={styles.hr}></hr>
-      <h1 className={styles.companyName}>
+      <hr className={style.hr}></hr>
+      <h1 className={style.companyName}>
         （会社の名前）
         <br />
         災害時連絡掲示板
       </h1>
-      <div className={styles.inputform}>
+      <div className={style.inputform}>
         <div>
-          <label htmlFor="staffid">社員のID：</label>
+          <label htmlFor="staffid">社員のID ：</label>
           <input
-            className={styles.inputText}
+            className={style.inputText}
             type="text"
             name="staffid"
             id="staffid"
@@ -25,7 +25,7 @@ export default function homepage() {
         <div>
           <label htmlFor="password">暗証番号 ：</label>
           <input
-            className={styles.inputText}
+            className={style.inputText}
             type="password"
             name="password"
             id="password"
@@ -36,11 +36,11 @@ export default function homepage() {
         </div>
       </div>
       <a href="./situation1">
-        <button type="submit" className={styles.LoginSub}>
+        <button type="submit" className={style.LoginSub}>
           登録
         </button>
       </a>
-      <hr className={styles.hr}></hr>
+      <hr className={style.hr}></hr>
     </>
   );
 }
