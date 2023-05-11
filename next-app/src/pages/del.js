@@ -1,16 +1,16 @@
-import style from "../styles/del.module.css";
+import style from "../styles/addAnddel.module.css";
 import movePage from "./_route.js";
 
 export default function del() {
   return (
     <div className={style.container}>
-      <hr className={style.hr}></hr>
-      <p className={style.title}>削除</p>
+      <div className={style.hr}></div>
+      <h1 className={style.title}>削除</h1>
       <p className={style.text}>社員の情報を教えてください。</p>
 
       <div className={style.inputform}>
         <div>
-          <label htmlFor="staffName">社員の ID ：</label>
+          <label htmlFor="staffName">社員 の ID ：</label>
           <input
             className={style.inputText}
             type="text"
