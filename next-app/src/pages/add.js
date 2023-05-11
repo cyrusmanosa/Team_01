@@ -31,10 +31,16 @@ export default function add() {
           />
         </div>
 
-        <div><button type="submit" className={style.LoginSub}>追加確認</button></div>
+        <a href="./addComplete">
+          <div>
+            <button type="submit" className={style.LoginSub}>
+              追加確認
+            </button>
+          </div>
+        </a>
 
         <div className={style.Cen}>
-          <a href="./completoin">
+          <a href="./managiment">
             <img src="./img/Cen2.png" width={100} />
           </a>
         </div>
